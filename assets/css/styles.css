@@ -5,14 +5,14 @@
 
 
 body{
-    font-family: "DelaGothicOne-Regular", sans-serif;
-    font-size: 14px;
+    font-family: "DelaGothicOne-Regular", cursive, sans-serif;
+    font-size: 16px;
 }
 
 .entete{
     font-family: Arial,sans-serif;
     text-align: center;
-
+    font-size: 18px;
 }
 
 .entete .adresse{
@@ -49,11 +49,11 @@ h2{
 .annee{
     font-weight: 900;
     font-size: 18px;
+    margin-right: 20px;
 }
 
 .conteneur p {
-    font-family:cursive;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 ul > li {
