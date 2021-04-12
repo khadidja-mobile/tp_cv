@@ -1,10 +1,10 @@
 @font-face {
-    font-family: "DelaGothicOne-Regular";
-    src: url("../fonts/DelaGothicOne-Regular.ttf") format("ttf");
+    font-family: "Dela Gothic One";
+    src: url('../fonts/DelaGothicOne-Regular.ttf');
    }
 
 body{
-    font-family: "DelaGothicOne-Regular", cursive, sans-serif;
+    font-family: "Dela Gothic One", sans-serif;
     font-size: 16px;
 }
 
@@ -45,13 +45,12 @@ h2{
 }
 
 .annee span {
-    margin-right: 14px;
+    margin-right: 20px;
     font-weight: 900;
 }
 
 .annee span span:first-child + ul > li{
-    font-weight: 600;
-    
+    font-weight: 600;  
 }
 
 .conteneur p {
