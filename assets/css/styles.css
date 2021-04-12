@@ -1,0 +1,66 @@
+@font-face {
+    font-family: "DelaGothicOne-Regular";
+    src: url("../fonts/DelaGothicOne-Regular.ttf") format("ttf");
+   }
+
+
+body{
+    font-family: "DelaGothicOne-Regular", sans-serif;
+    font-size: 14px;
+}
+
+.entete{
+    font-family: Arial,sans-serif;
+    text-align: center;
+
+}
+
+.entete .adresse{
+    text-align: right;
+
+}
+
+.entete, .conteneur{
+    background-color: #e8eff7;
+    width: 75%;
+    margin: 15px auto;
+    padding : 14px;
+
+    border-radius: 10px; 
+    box-shadow: 14px 14px 5px 0px rgba(108,103,103,0.75);
+    -webkit-box-shadow: 14px 14px 5px 0px rgba(108,103,103,0.75);
+    -moz-box-shadow: 14px 14px 5px 0px rgba(108,103,103,0.75);
+}
+
+h1{
+    font-size: 20px;
+}
+.entete p em span {font-weight: 600; font-style: normal;}
+
+.entete p > span span {font-weight: 500;}
+
+h2{
+    color: #fff;
+    background-color:#c2d5eb;
+    font-size: 18px;
+    padding: 5px;
+}
+
+.annee{
+    font-weight: 900;
+    font-size: 18px;
+}
+
+.conteneur p {
+    font-family:cursive;
+    font-weight: 600;
+}
+
+ul > li {
+    list-style-type: square;
+    font-weight: 500;
+}
+
+ul li > h3 {
+    display: inline;
+}
