@@ -3,7 +3,6 @@
     src: url("../fonts/DelaGothicOne-Regular.ttf") format("ttf");
    }
 
-
 body{
     font-family: "DelaGothicOne-Regular", cursive, sans-serif;
     font-size: 16px;
@@ -17,7 +16,6 @@ body{
 
 .entete .adresse{
     text-align: right;
-
 }
 
 .entete, .conteneur{
@@ -46,10 +44,14 @@ h2{
     padding: 5px;
 }
 
-.annee{
+.annee span {
+    margin-right: 14px;
     font-weight: 900;
-    font-size: 18px;
-    margin-right: 20px;
+}
+
+.annee span span:first-child + ul > li{
+    font-weight: 600;
+    
 }
 
 .conteneur p {
@@ -58,7 +60,6 @@ h2{
 
 ul > li {
     list-style-type: square;
-    font-weight: 500;
 }
 
 ul li > h3 {
